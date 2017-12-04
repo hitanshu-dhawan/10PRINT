@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+canvas {
+    position: fixed;
+    width: 100%;
+}
+
+#github-link {
+    position: fixed;
+    top: 85%;
+    /*center*/
+    text-align: center;
+    width: 80%;
+    margin-left: -40%;
+    left: 50%;
+}
+
+#github-link .fa {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#github-link .fa:hover {
+    opacity: 0.5;
+}
