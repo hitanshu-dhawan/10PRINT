@@ -24,11 +24,11 @@ canvas {
     width: 40px;
     height: 40px;
     font-size: 40px;
-    color: black;
+    color: rgba(0, 0, 0, 1);
     background-color: white;
     border-radius: 50%;
 }
 
 #github-link .fa:hover {
-    opacity: 0.5;
+    color: rgba(0, 0, 0, 0.5);
 }
