@@ -10,6 +10,22 @@ canvas {
     width: 100%;
 }
 
+#refresh-text {
+    position: fixed;
+    top: 10%;
+    /*center*/
+    text-align: center;
+    width: 20%;
+    margin-left: -10%;
+    left: 50%;
+}
+
+#refresh-text h3 {
+    font-family: monospace;
+    background-color: white;
+    border: 2px solid black;
+}
+
 #github-link {
     position: fixed;
     top: 85%;
