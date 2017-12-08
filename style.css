@@ -48,3 +48,18 @@ canvas {
 #github-link .fa:hover {
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* for responsive website */
+@media screen and (max-width: 1000px) {
+
+    #refresh-text {
+        position: fixed;
+        top: 10%;
+        /*center*/
+        text-align: center;
+        width: 70%;
+        margin-left: -35%;
+        left: 50%;
+    }
+
+}
